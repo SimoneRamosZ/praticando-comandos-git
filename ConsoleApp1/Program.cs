@@ -7,6 +7,8 @@ if (idadeUsuario >= 18)
 else if (idadeUsuario < 18)
 {
     Console.WriteLine("O usuário é menor de idade"); 
+}   
+if (idadeUsuario > 99)
+{
+    Console.WriteLine("O usuário é idoso");
 }
-
-    
